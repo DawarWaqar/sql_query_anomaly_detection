@@ -1,0 +1,7 @@
+# Virtual environment
+anomaly_detection_venv/
+
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+
+.DS_Store
