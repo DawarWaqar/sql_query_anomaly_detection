@@ -1,5 +1,14 @@
 # SQL_QUERY_ANOMALY_DETECTION
 
+This is the code that supplements our Research Paper for a course project. We explored ensemble
+learning of state-of-the-art unsupervised models for SQL query anomaly detection to detect various types of anomalies.
+
+## Data
+
+- We used [Kaggle SQL Injection Dataset](https://www.kaggle.com/datasets/syedsaqlainhussain/sql-injection-dataset)
+
+- We also generated a new dataset of query processing times
+
 ## Quick Start Tutorial
 
 ### Clone the repository
