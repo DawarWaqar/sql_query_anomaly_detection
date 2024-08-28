@@ -3,11 +3,11 @@ import pandas as pd
 import time
 
 # Connection details
-server = "localhost,1433"
-database = "QPerformanceAnom"
-username = "SA"
-password = "MyStrongPass123"
-connection_string = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}"
+server = "<IP_ADDR>,<PORT_NUM>"
+database = "<DB_NAME>"
+username = ""
+password = ""
+connection_string = ""
 
 # Establish connection
 conn = pyodbc.connect(connection_string)
