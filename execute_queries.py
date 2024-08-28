@@ -7,8 +7,7 @@ server = "<IP_ADDR>,<PORT_NUM>"
 database = "<DB_NAME>"
 username = ""
 password = ""
-connection_string = ""
-
+connection_string = f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};UID={username};PWD={password}"
 # Establish connection
 conn = pyodbc.connect(connection_string)
 cursor = conn.cursor()
